@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 11:49:21 PM CST 
+
+  -->
+  <bindings xmlns:tns="http://services.jaxws.webapp.rvalenzuela.org/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.claro.proceso.migracion.pospago.api.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:crear">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.Crear"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:crearResponse">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.CrearResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteSubscriber">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.DeleteSubscriber"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteSubscriberResponse">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.DeleteSubscriberResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:listar">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.Listar"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:listarResponse">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.ListarResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteSubscriberAttr">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.DeleteSubscriberAttr"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:deleteResponse">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.DeleteResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:curso">
+      <class ref="com.claro.proceso.migracion.pospago.api.wsdl.Curso"/>
+    </bindings>
+  </bindings>
+</bindings>
